@@ -95,7 +95,7 @@ p {
   text-align: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1028px) {
   .big-heading {
     font-family: "Montserrat-Black";
     font-size: 80px;
@@ -111,5 +111,6 @@ p {
 
   .download-button {
     line-height: 2;
+    padding: 0 4rem;
   }
 }
