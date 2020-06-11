@@ -79,7 +79,7 @@ p {
 /* Title Section */
 
 #title {
-  background-color: #726a95;
+  background-color: #0e9aa7;
   color: #fff;
   text-align: center;
 }
@@ -92,16 +92,24 @@ p {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
   .big-heading {
     font-family: "Montserrat-Black";
-    font-size: 45px;
-    line-height: 1.8;
+    font-size: 80px;
+    line-height: 1.5;
+    margin-bottom: rem;
   }
 
   .small-heading {
     font-size: 17px;
+    line-height: 1.5;
+    padding: 0 0 50px 0;
+  }
+
+  .download-button {
+    line-height: 2;
   }
 }
