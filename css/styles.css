@@ -20,8 +20,11 @@ p {
 
 .big-heading {
   font-family: "Montserrat-Black";
-  font-size: 3.5rem;
+  font-size: 104px;
   line-height: 1.5;
+}
+.small-heading {
+  line-height: 1.8rem;
 }
 
 .section-heading {
@@ -89,4 +92,16 @@ p {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+@media (max-width: 767px) {
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 45px;
+    line-height: 1.5;
+  }
+
+  .small-heading {
+    font-size: 17px;
+  }
 }
