@@ -20,8 +20,8 @@ p {
 
 .big-heading {
   font-family: "Montserrat-Black";
-  font-size: 104px;
-  line-height: 1.5;
+  font-size: 10rem;
+  line-height: 1.2;
 }
 .small-heading {
   line-height: 1.8rem;
@@ -98,19 +98,19 @@ p {
 @media (max-width: 1028px) {
   .big-heading {
     font-family: "Montserrat-Black";
-    font-size: 80px;
+    font-size: 7rem;
     line-height: 1.5;
-    margin-bottom: rem;
   }
 
   .small-heading {
     font-size: 17px;
     line-height: 1.5;
-    padding: 0 0 50px 0;
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
   }
 
   .download-button {
     line-height: 2;
-    padding: 0 4rem;
+    padding: 0 5rem;
   }
 }
