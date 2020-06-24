@@ -116,7 +116,13 @@ p {
   #projects .container-fluid {
     padding: 20px;
   }
+
+  .section-heading {
+    font-size: 5rem;
+    line-height: 1;
+  }
 }
+
 /* projects */
 .my-flip-container {
   padding: 20px 0;
