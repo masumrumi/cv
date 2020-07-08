@@ -727,7 +727,7 @@ a:hover {
 .social li:hover:nth-child(5) a:after {
   background: #0d0d0e;
 }
-/* art */
+/* art
 .btn:focus,
 .btn:active,
 button:focus,
@@ -743,4 +743,4 @@ button:active {
 .thumb {
   margin-top: 15px;
   margin-bottom: 15px;
-}
+} */
