@@ -31,6 +31,7 @@ p {
   font-size: 3rem;
   line-height: 1.5;
   padding: 3rem 0 2rem;
+  text-align: center;
 }
 
 /* Containers */
@@ -725,4 +726,21 @@ a:hover {
 
 .social li:hover:nth-child(5) a:after {
   background: #0d0d0e;
+}
+/* art */
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+  display: block;
+}
+
+.thumb {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
