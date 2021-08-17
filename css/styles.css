@@ -10,10 +10,12 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat-Bold";
+  color: #05cc0f;
 }
 
 p {
   color: #8f8f8f;
+  /* font-family: "Montserrat-Bold"; */
 }
 
 /* Headings */
